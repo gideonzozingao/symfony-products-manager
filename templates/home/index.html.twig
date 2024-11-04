@@ -1,0 +1,8 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Welcome</h1>
+    <p>Explore our products and find what you love!</p>
+    <a class="btn btn-primary" href="{{ path('product_index') }}">View Products</a>
+    <a class="btn btn-primary" href="{{ url('product_index') }}">View Products</a>
+{% endblock %}
